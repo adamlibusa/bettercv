@@ -1,0 +1,69 @@
+{
+  "picture": {
+    "url": ""
+  },
+  "name": "",
+  "summary": "I am a full-stack web developer with 15 years of experience. I can supervise the technical\ndesign as well as the implementation of an entire web-application. I speak 8 languages. My\nbest tech skills: React (Frontend), Node.js and Kotlin (Backend).",
+  "contact": {
+    "email": "",
+    "phone": ""
+  },
+  "languages": {
+    "en": "C2",
+    "sk": "C2",
+    "cs": "C2",
+    "de": "C1",
+    "es": "C1",
+    "fr": "B2",
+    "pt": "B2",
+    "ro": "B2",
+    "zh": "A1"
+  },
+  "hobbies": "science and technology, sci-fi, bodybuilding, swimming, ski, foreign languages, reading, history",
+  "jobHistory": [{
+    "from": "2023-12",
+    "to": "2024-04",
+    "positionName": "Senior Software Engineer",
+    "endClient": null,
+    "primaryCompany": "Capco",
+    "otherCompanies": [],
+    "city": "Zurich",
+    "country": "Switzerland",
+    "actions": [
+      "Integration of a job-scheduling tool JS7 for a small bank"
+    ],
+    "skills": [
+      "JS7", "MS SQL Server", "PowerShell", ".NET"
+    ]
+  }, {
+    "from": "2022-03",
+    "to": "2023-06",
+    "positionName": "Kotlin Spring Boot Developer",
+    "endClient": null,
+    "primaryCompany": "REWE",
+    "otherCompanies": ["Nagarro", "Computer Futures"],
+    "city": "Vienna",
+    "country": "Austria",
+    "actions": [
+      "Development of a microservice backend supporting online ordering platform"
+    ],
+    "skills": [
+      "Kotlin Spring Boot", "Kafka", "Postgres", "ArgoCD", "Prometheus", "Grafana", "Kibana"
+    ]
+  }, {
+    "from": "2021-08",
+    "to": "2021-12",
+    "positionName": "Typescript React Developer",
+    "endClient": null,
+    "primaryCompany": "Zurich Insurance",
+    "otherCompanies": ["Nagarro", "Computer Futures"],
+    "city": "Vienna",
+    "country": "Austria",
+    "actions": [
+      "Development of a frontend of a portal for insurance brokers"
+    ],
+    "skills": [
+      "React", "Typescript", "Material UI", "Recoil", "GraphQL", "Camunda"
+    ]
+  }]
+}
