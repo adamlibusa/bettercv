@@ -1,8 +1,9 @@
 {
-  "picture": {
-    "url": ""
+  "photo": {
+    "url": "file:///Users/adamlibusa/Projects/bettercv/code/bettercv/frontend/app/src/assets/user-photos/IMG_3260_cropped.jpg"
   },
-  "name": "",
+  "firstNames": "Adam",
+  "lastNames": "Libuša",
   "summary": "I am a full-stack web developer with 15 years of experience. I can supervise the technical\ndesign as well as the implementation of an entire web-application. I speak 8 languages. My\nbest tech skills: React (Frontend), Node.js and Kotlin (Backend).",
   "contact": {
     "email": "",

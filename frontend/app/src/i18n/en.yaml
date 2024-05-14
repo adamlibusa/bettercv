@@ -2,3 +2,4 @@
 
 title: "CV site for freelances with a lot of projects"
 logo.alt: "Better CV logo"
+cv.photo.alt: "Photo of {name}"
