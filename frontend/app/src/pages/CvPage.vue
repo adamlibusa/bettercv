@@ -11,24 +11,53 @@
       <h2 class="name">{{ fullName }}</h2>
       <div class="summary">{{ cv.summary }}</div>
     </section>
+    <div class="slider-box">
+      <vue-slider
+          ref="slider"
+          v-model="sliderValue"
+          v-bind="sliderOptions"
+          :data="cvViewOptions"
+      />
+    </div>
     <section>
+
       <!-- First let's do the card version -->
     </section>
   </div>
 </template>
 
 <script>
+import VueSlider from 'vue-3-slider-component'
 import cv from '@/data/adam-cv.json'
 import {getFullName} from '@/util'
 
 export default {
   name: 'CvPate',
-  props: {
-    msg: String,
+  components: {
+    VueSlider,
+  },
+  data () {
+    return {
+      sliderValue: 'brief',
+      sliderOptions: {
+        dotSize: 26,
+        height: 16,
+        adsorb: true,
+        tooltipPlacement: 'top',
+        useKeyboard: true,
+      }
+    }
   },
   computed: {
-    cv: () => cv,
-    fullName: () => getFullName(cv),
+    cv() { return cv },
+    fullName() { return getFullName(cv) },
+    cvViewOptions() {
+      return [
+        { value: 'business-card', label: this.$t('cvView.options.businessCard') },
+        { value: 'brief', label: this.$t('cvView.options.brief') },
+        { value: 'full', label: this.$t('cvView.options.full') },
+      ]
+    }
   },
 }
 </script>
@@ -61,6 +90,14 @@ export default {
       grid-column-end: right-border;
       grid-row-start: 2;
       grid-row-end: bottom-border;
+    }
+  }
+
+  .slider-box {
+    margin-inline-start: 75%;
+
+    .vue-slider {
+      cursor: pointer;
     }
   }
 
