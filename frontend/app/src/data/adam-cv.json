@@ -6,9 +6,28 @@
   "lastNames": "Libuša",
   "summary": "I am a full-stack web developer with 15 years of experience. I can supervise the technical\ndesign as well as the implementation of an entire web-application. I speak 8 languages. My\nbest tech skills: React (Frontend), Node.js and Kotlin (Backend).",
   "contact": {
-    "email": "",
-    "phone": ""
+    "email": "adam.libusa@gmail.com",
+    "phone": "+421 940 290 853"
   },
+  "education": [{
+    "label": "Master in Informatics",
+    "schoolName": "Masaryk University",
+    "facultyName": "Faculty of Informatics",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "from": "2005",
+    "to": "2012",
+    "note": "Program: Information Systems; specializations: Computer Systems and Information Technology Security"
+  }, {
+    "label": "Bachelor in Economics",
+    "schoolName": "Masaryk University",
+    "facultyName": "Faculty of Economics",
+    "city": "Brno",
+    "country": "Czech Republic",
+    "from": "2008",
+    "to": "2011",
+    "note": "Program: Economic Information Systems"
+  }],
   "languages": {
     "en": "C2",
     "sk": "C2",
@@ -49,7 +68,7 @@
       "Development of a microservice backend supporting online ordering platform"
     ],
     "skills": [
-      "Kotlin Spring Boot", "Kafka", "Postgres", "ArgoCD", "Prometheus", "Grafana", "Kibana"
+      "Kotlin", "Spring Boot", "Kafka", "Postgres", "ArgoCD", "Prometheus", "Grafana", "Kibana"
     ]
   }, {
     "from": "2021-08",
@@ -66,5 +85,163 @@
     "skills": [
       "React", "Typescript", "Material UI", "Recoil", "GraphQL", "Camunda"
     ]
+  }, {
+    "from": "2020-09",
+    "to": "2021-08",
+    "positionName": "Kotlin Spring Boot/React Fullstack Developer",
+    "endClient": null,
+    "primaryCompany": "Wiener Wohnen",
+    "otherCompanies": ["Convista"],
+    "city": "Vienna",
+    "country": "Austria",
+    "actions": [
+      "Development of a multi-client (Web, Android/iOS-App), micro-service application"
+    ],
+    "skills": [
+      "Kotlin", "Spring Boot", "React", "GraphQL", "Kafka", "Kubernetes", "Helm", "Cucumbere2e-Tests", "Jest", "Jenkins"
+    ]
+  }, {
+    "from": "2019-09",
+    "to": "2020-03",
+    "positionName": "Java/Kotlin Spring Boot App-Backend Developer",
+    "endClient": null,
+    "primaryCompany": "Magenta",
+    "otherCompanies": ["Computer Futures"],
+    "city": "Vienna",
+    "country": "Austria",
+    "actions": [
+      "I was a developer of a microservice backend for Magenta OneApp"
+    ],
+    "skills": [
+      "Java", "Kotlin", "Spring Boot", "Spock (Groovy)", "Oracle PL/SQL", "MyBatis", "Jenkins", "Openshift"
+    ]
+  }, {
+    "from": "2018-08",
+    "to": "2022-08",
+    "positionName": "Sole founder",
+    "endClient": null,
+    "primaryCompany": "Molelo.net",
+    "otherCompanies": ["Computer Futures"],
+    "ownProject": true,
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "actions": [
+      "Design and development of a web-application serving as an online marketplace for copyeditors molelo.net"
+    ],
+    "skills": [
+      "React", "Redux", "Slate.js", "Express", "Mocha", "Chai", "PostgreSQL", "AWS"
+    ]
+  }, {
+    "from": "2017-07",
+    "to": "2018-06",
+    "positionName": "React/Java 8 Spring Developer",
+    "endClient": "EVVA",
+    "primaryCompany": "Open Force",
+    "otherCompanies": ["Computer Futures"],
+    "city": "Vienna",
+    "country": "Austria",
+    "actions": [
+      "I was a developer in a team writing an administration application for key card entry systems"
+    ],
+    "skills": [
+      "React", "Ramda", "Less", "Java 8/Spring", "PostgreSQL", "Websockets", "MQTT", "JavaFx", "Docker", "Nightwatch", "Browserstack"
+    ]
+  }, {
+    "from": "2017-03",
+    "to": "2017-05",
+    "positionName": "React Developer",
+    "endClient": "Kiwi",
+    "primaryCompany": "Vacuum Labs",
+    "otherCompanies": [],
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "actions": [
+      "I fixed bugs and implemented new features in a flight ticket search engine kiwi.com"
+    ],
+    "skills": [
+      "React", "Webpack", "Stylus", "ES6", "HTML5", "CSS3"
+    ],
+    "minor": true
+  }, {
+    "from": "2016-11",
+    "to": "2017-02",
+    "positionName": "Elixir/Angular tech cofounder",
+    "endClient": null,
+    "primaryCompany": null,
+    "otherCompanies": [],
+    "ownProject": true,
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "actions": [
+      "The only developer of a risk management tool “Balance Scorecard”"
+    ],
+    "skills": [
+      "Elixir", "Angular", "Postgres"
+    ],
+    "minor": true
+  }, {
+    "from": "2012-09",
+    "to": "2016-10",
+    "positionName": "PHP programmer",
+    "endClient": null,
+    "primaryCompany": "DEMV Systems",
+    "otherCompanies": [],
+    "city": "Hamburg",
+    "country": "Germany",
+    "actions": [
+      "I was developing a tool for comparing insurance offers on the German market"
+    ],
+    "skills": [
+      "PHP", "MySQL", "Dojo", "SOAP"
+    ]
+  }, {
+    "from": "2009-08",
+    "to": "2012-05",
+    "positionName": "Perl & Oracle Developer",
+    "endClient": null,
+    "primaryCompany": "Masaryk University",
+    "otherCompanies": [],
+    "city": "Brno",
+    "country": "Czech Republic",
+    "actions": [
+      "I was a programmer in a team developing the information system of our university. The system had 40.000 daily users (http://is.muni.cz/nas_system/?lang=en)",
+      "I optimized PL/SQL Procedures for better performance",
+      "I designed and implemented new versions of the part dedicated to students (course applications, seminar groups enrollment etc.)"
+    ],
+    "skills": [
+      "Perl", "Oracle", "jQuery"
+    ]
+  }, {
+    "from": "2008-09",
+    "to": "2009-05",
+    "positionName": "Java Programmer",
+    "endClient": null,
+    "primaryCompany": "iSEC - IT Services and Enterprise Communications",
+    "otherCompanies": [],
+    "city": "Brno",
+    "country": "Czech Republic",
+    "actions": [
+      "Bugfixing and implementation of new features in a Java Swing tool for testing of the SIP protocol",
+      "Designed and implemented a web-client for the tool in Java Struts 2"
+    ],
+    "skills": [
+      "Java", "Swing", "Struts"
+    ]
+  }, {
+    "from": "2008-09",
+    "to": "2009-05",
+    "positionName": "Teacher of the “Introduction to the C programming language” und “C++ Programming”",
+    "endClient": null,
+    "primaryCompany": "Masaryk University",
+    "otherCompanies": [],
+    "city": "Brno",
+    "country": "Czech Republic",
+    "actions": [
+      "Thanks to my good student results, I was offered the possibility to lead the seminar groups of two university courses"
+    ],
+    "skills": [
+    ],
+    "minor": true
   }]
+
 }
