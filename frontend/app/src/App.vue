@@ -45,4 +45,30 @@ export default {
       color: inherit;
     }
   }
+
+  ul.boring-list {
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-block-end: 24px;
+
+      &:last-of-type {
+        margin-block-end: initial;
+      }
+    }
+  }
+
+  ul.boring-list-tight {
+    padding: 0;
+
+    li {
+      list-style: none;
+      margin-block-end: 6px;
+
+      &:last-of-type {
+        margin-block-end: initial;
+      }
+    }
+  }
 </style>

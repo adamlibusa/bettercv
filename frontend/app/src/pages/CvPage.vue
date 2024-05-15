@@ -20,7 +20,7 @@
       />
     </div>
     <section>
-
+      <cv-business-card />
       <!-- First let's do the card version -->
     </section>
   </div>
@@ -30,10 +30,12 @@
 import VueSlider from 'vue-3-slider-component'
 import cv from '@/data/adam-cv.json'
 import {getFullName} from '@/util'
+import CvBusinessCard from '@/components/CvBusinessCard.vue'
 
 export default {
   name: 'CvPate',
   components: {
+    CvBusinessCard,
     VueSlider,
   },
   data () {
@@ -68,6 +70,7 @@ export default {
     grid-template-columns: [left-border] 1fr [inner-horizontal-divider] 3fr [right-border];
     grid-template-rows: [top-border] 1fr [inner-vertical-divider] 1fr [bottom-border];
     grid-gap: 12px;
+    margin-block-start: 24px;
 
     .photo {
       grid-column-start: 1;
@@ -91,18 +94,8 @@ export default {
       grid-row-start: 2;
       grid-row-end: bottom-border;
     }
-  }
 
-  .slider-box {
-    margin-inline-start: 75%;
-
-    .vue-slider {
-      cursor: pointer;
-    }
-  }
-
-  @media only screen and (max-width: 800px) {
-    .photo-area {
+    @media only screen and (max-width: 800px) {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -114,11 +107,18 @@ export default {
         margin-block-start: 36px;
         font-size: 36px;
       }
-
-      .summary {
-        margin-inline: 36px;
-      }
     }
   }
 
+  .slider-box {
+    margin-inline-start: 75%;
+    @media only screen and (max-width: 800px) {
+      margin-inline: 50px;
+      margin-block: 24px;
+    }
+
+    .vue-slider {
+      cursor: pointer;
+    }
+  }
 </style>
