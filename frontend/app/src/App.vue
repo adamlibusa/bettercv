@@ -1,3 +1,14 @@
+<script>
+import CvPage from '@/pages/CvPage.vue'
+
+export default {
+  name: 'App',
+  components: {
+    CvPage,
+  }
+}
+</script>
+
 <template>
   <header>
     <div class="container">
@@ -10,17 +21,6 @@
 
   <CvPage />
 </template>
-
-<script>
-import CvPage from '@/pages/CvPage.vue'
-
-export default {
-  name: 'App',
-  components: {
-    CvPage,
-  }
-}
-</script>
 
 <style lang="scss">
   header {
